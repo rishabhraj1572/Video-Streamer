@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/RishabhRaj/.gradle/caches/transforms-3/400bffe9c340098efa3f2f44aaf07407/transformed/jetified-exoplayer-ui-2.15.1/res/layout/exo_player_view.xml" value="0.14732547597461468" />
+        <entry key="..\:/Users/RishabhRaj/OneDrive - Rr/Desktop/Dooo TV/app/src/main/res/drawable/arrow_back.xml" value="0.164" />
+        <entry key="..\:/Users/RishabhRaj/OneDrive - Rr/Desktop/Dooo TV/app/src/main/res/drawable/ic_baseline_mic_24.xml" value="0.145" />
+        <entry key="..\:/Users/RishabhRaj/OneDrive - Rr/Desktop/Dooo TV/app/src/main/res/drawable/ic_baseline_skip.xml" value="0.164" />
+        <entry key="..\:/Users/RishabhRaj/OneDrive - Rr/Desktop/Dooo TV/app/src/main/res/drawable/ic_launcher_foreground.xml" value="0.1" />
+        <entry key="..\:/Users/RishabhRaj/OneDrive - Rr/Desktop/Dooo TV/app/src/main/res/drawable/reset_pass_dialog_bg.xml" value="0.144" />
+        <entry key="..\:/Users/RishabhRaj/OneDrive - Rr/Desktop/Dooo TV/app/src/main/res/layout/account_dialog.xml" value="0.16417272338606242" />
+        <entry key="..\:/Users/RishabhRaj/OneDrive - Rr/Desktop/Dooo TV/app/src/main/res/layout/account_layout.xml" value="0.16417272338606242" />
+        <entry key="..\:/Users/RishabhRaj/OneDrive - Rr/Desktop/Dooo TV/app/src/main/res/layout/activity_all_genre.xml" value="0.16417272338606242" />
+        <entry key="..\:/Users/RishabhRaj/OneDrive - Rr/Desktop/Dooo TV/app/src/main/res/layout/activity_downloads.xml" value="0.16417272338606242" />
+        <entry key="..\:/Users/RishabhRaj/OneDrive - Rr/Desktop/Dooo TV/app/src/main/res/layout/activity_embed_player.xml" value="0.16417272338606242" />
+        <entry key="..\:/Users/RishabhRaj/OneDrive - Rr/Desktop/Dooo TV/app/src/main/res/layout/activity_favorites.xml" value="0.16417272338606242" />
+        <entry key="..\:/Users/RishabhRaj/OneDrive - Rr/Desktop/Dooo TV/app/src/main/res/layout/activity_genre_details.xml" value="0.16417272338606242" />
+        <entry key="..\:/Users/RishabhRaj/OneDrive - Rr/Desktop/Dooo TV/app/src/main/res/layout/activity_home.xml" value="0.16417272338606242" />
+        <entry key="..\:/Users/RishabhRaj/OneDrive - Rr/Desktop/Dooo TV/app/src/main/res/layout/activity_in__app__update.xml" value="0.16417272338606242" />
+        <entry key="..\:/Users/RishabhRaj/OneDrive - Rr/Desktop/Dooo TV/app/src/main/res/layout/activity_live_tv.xml" value="0.13039760581445062" />
+        <entry key="..\:/Users/RishabhRaj/OneDrive - Rr/Desktop/Dooo TV/app/src/main/res/layout/activity_live_tvsearch.xml" value="0.16417272338606242" />
+        <entry key="..\:/Users/RishabhRaj/OneDrive - Rr/Desktop/Dooo TV/app/src/main/res/layout/activity_login_signup.xml" value="0.16417272338606242" />
+        <entry key="..\:/Users/RishabhRaj/OneDrive - Rr/Desktop/Dooo TV/app/src/main/res/layout/activity_maintenance.xml" value="0.13039760581445062" />
+        <entry key="..\:/Users/RishabhRaj/OneDrive - Rr/Desktop/Dooo TV/app/src/main/res/layout/activity_movie_details.xml" value="0.13039760581445062" />
+        <entry key="..\:/Users/RishabhRaj/OneDrive - Rr/Desktop/Dooo TV/app/src/main/res/layout/activity_player.xml" value="0.16417272338606242" />
+        <entry key="..\:/Users/RishabhRaj/OneDrive - Rr/Desktop/Dooo TV/app/src/main/res/layout/activity_privecy_policy.xml" value="0.16417272338606242" />
+        <entry key="..\:/Users/RishabhRaj/OneDrive - Rr/Desktop/Dooo TV/app/src/main/res/layout/activity_splash.xml" value="0.16417272338606242" />
+        <entry key="..\:/Users/RishabhRaj/OneDrive - Rr/Desktop/Dooo TV/app/src/main/res/layout/activity_subscription.xml" value="0.13039760581445062" />
+        <entry key="..\:/Users/RishabhRaj/OneDrive - Rr/Desktop/Dooo TV/app/src/main/res/layout/activity_subscription_details.xml" value="0.13039760581445062" />
+        <entry key="..\:/Users/RishabhRaj/OneDrive - Rr/Desktop/Dooo TV/app/src/main/res/layout/activity_subscription_list.xml" value="0.13039760581445062" />
+        <entry key="..\:/Users/RishabhRaj/OneDrive - Rr/Desktop/Dooo TV/app/src/main/res/layout/activity_terms_and_conditions.xml" value="0.16417272338606242" />
+        <entry key="..\:/Users/RishabhRaj/OneDrive - Rr/Desktop/Dooo TV/app/src/main/res/layout/activity_trailer_player.xml" value="0.13039760581445062" />
+        <entry key="..\:/Users/RishabhRaj/OneDrive - Rr/Desktop/Dooo TV/app/src/main/res/layout/activity_web_series_details.xml" value="0.16" />
+        <entry key="..\:/Users/RishabhRaj/OneDrive - Rr/Desktop/Dooo TV/app/src/main/res/layout/activity_web_view.xml" value="0.13039760581445062" />
+        <entry key="..\:/Users/RishabhRaj/OneDrive - Rr/Desktop/Dooo TV/app/src/main/res/layout/activity_youtube_live_player.xml" value="0.13039760581445062" />
+        <entry key="..\:/Users/RishabhRaj/OneDrive - Rr/Desktop/Dooo TV/app/src/main/res/layout/comment_item.xml" value="0.13039760581445062" />
+        <entry key="..\:/Users/RishabhRaj/OneDrive - Rr/Desktop/Dooo TV/app/src/main/res/layout/comment_tab.xml" value="0.13039760581445062" />
+        <entry key="..\:/Users/RishabhRaj/OneDrive - Rr/Desktop/Dooo TV/app/src/main/res/layout/continue_playing_item.xml" value="0.16417272338606242" />
+        <entry key="..\:/Users/RishabhRaj/OneDrive - Rr/Desktop/Dooo TV/app/src/main/res/layout/cupan_dialog.xml" value="0.13039760581445062" />
+        <entry key="..\:/Users/RishabhRaj/OneDrive - Rr/Desktop/Dooo TV/app/src/main/res/layout/custom_report_dialog.xml" value="0.13039760581445062" />
+        <entry key="..\:/Users/RishabhRaj/OneDrive - Rr/Desktop/Dooo TV/app/src/main/res/layout/download_dialog.xml" value="0.13039760581445062" />
+        <entry key="..\:/Users/RishabhRaj/OneDrive - Rr/Desktop/Dooo TV/app/src/main/res/layout/download_item.xml" value="0.13039760581445062" />
+        <entry key="..\:/Users/RishabhRaj/OneDrive - Rr/Desktop/Dooo TV/app/src/main/res/layout/download_link_item.xml" value="0.13039760581445062" />
+        <entry key="..\:/Users/RishabhRaj/OneDrive - Rr/Desktop/Dooo TV/app/src/main/res/layout/empty.xml" value="0.16417272338606242" />
+        <entry key="..\:/Users/RishabhRaj/OneDrive - Rr/Desktop/Dooo TV/app/src/main/res/layout/episode_item.xml" value="0.13039760581445062" />
+        <entry key="..\:/Users/RishabhRaj/OneDrive - Rr/Desktop/Dooo TV/app/src/main/res/layout/forgot_password.xml" value="0.13039760581445062" />
+        <entry key="..\:/Users/RishabhRaj/OneDrive - Rr/Desktop/Dooo TV/app/src/main/res/layout/genre_item.xml" value="0.13039760581445062" />
+        <entry key="..\:/Users/RishabhRaj/OneDrive - Rr/Desktop/Dooo TV/app/src/main/res/layout/home_layout.xml" value="0.13039760581445062" />
+        <entry key="..\:/Users/RishabhRaj/OneDrive - Rr/Desktop/Dooo TV/app/src/main/res/layout/language_change_dialog.xml" value="0.16417272338606242" />
+        <entry key="..\:/Users/RishabhRaj/OneDrive - Rr/Desktop/Dooo TV/app/src/main/res/layout/live_tv_channel_item.xml" value="0.13039760581445062" />
+        <entry key="..\:/Users/RishabhRaj/OneDrive - Rr/Desktop/Dooo TV/app/src/main/res/layout/loading_dialog.xml" value="0.16417272338606242" />
+        <entry key="..\:/Users/RishabhRaj/OneDrive - Rr/Desktop/Dooo TV/app/src/main/res/layout/loading_more.xml" value="0.16417272338606242" />
+        <entry key="..\:/Users/RishabhRaj/OneDrive - Rr/Desktop/Dooo TV/app/src/main/res/layout/login.xml" value="0.13039760581445062" />
+        <entry key="..\:/Users/RishabhRaj/OneDrive - Rr/Desktop/Dooo TV/app/src/main/res/layout/movie_item.xml" value="0.13039760581445062" />
+        <entry key="..\:/Users/RishabhRaj/OneDrive - Rr/Desktop/Dooo TV/app/src/main/res/layout/movie_play_item.xml" value="0.13039760581445062" />
+        <entry key="..\:/Users/RishabhRaj/OneDrive - Rr/Desktop/Dooo TV/app/src/main/res/layout/movies_layout.xml" value="0.13039760581445062" />
+        <entry key="..\:/Users/RishabhRaj/OneDrive - Rr/Desktop/Dooo TV/app/src/main/res/layout/my_comment_item.xml" value="0.16417272338606242" />
+        <entry key="..\:/Users/RishabhRaj/OneDrive - Rr/Desktop/Dooo TV/app/src/main/res/layout/payment_dialog.xml" value="0.16417272338606242" />
+        <entry key="..\:/Users/RishabhRaj/OneDrive - Rr/Desktop/Dooo TV/app/src/main/res/layout/play_movie.xml" value="0.16417272338606242" />
+        <entry key="..\:/Users/RishabhRaj/OneDrive - Rr/Desktop/Dooo TV/app/src/main/res/layout/player_controlls.xml" value="0.16417272338606242" />
+        <entry key="..\:/Users/RishabhRaj/OneDrive - Rr/Desktop/Dooo TV/app/src/main/res/layout/playmovietab.xml" value="0.16417272338606242" />
+        <entry key="..\:/Users/RishabhRaj/OneDrive - Rr/Desktop/Dooo TV/app/src/main/res/layout/reset_password.xml" value="0.12612227447627192" />
+        <entry key="..\:/Users/RishabhRaj/OneDrive - Rr/Desktop/Dooo TV/app/src/main/res/layout/search_layout.xml" value="0.33" />
+        <entry key="..\:/Users/RishabhRaj/OneDrive - Rr/Desktop/Dooo TV/app/src/main/res/layout/show_all.xml" value="0.13039760581445062" />
+        <entry key="..\:/Users/RishabhRaj/OneDrive - Rr/Desktop/Dooo TV/app/src/main/res/layout/show_all_live_tv_channels.xml" value="0.13039760581445062" />
+        <entry key="..\:/Users/RishabhRaj/OneDrive - Rr/Desktop/Dooo TV/app/src/main/res/layout/slider_item_container.xml" value="0.13039760581445062" />
+        <entry key="..\:/Users/RishabhRaj/OneDrive - Rr/Desktop/Dooo TV/app/src/main/res/layout/small_live_tv_channel_item.xml" value="0.13039760581445062" />
+        <entry key="..\:/Users/RishabhRaj/OneDrive - Rr/Desktop/Dooo TV/app/src/main/res/layout/track_selection_dialog.xml" value="0.13039760581445062" />
+        <entry key="..\:/Users/RishabhRaj/OneDrive - Rr/Desktop/Dooo TV/app/src/main/res/layout/update_list_item.xml" value="0.13039760581445062" />
+        <entry key="..\:/Users/RishabhRaj/OneDrive - Rr/Desktop/Dooo TV/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.201" />
+        <entry key="..\:/Users/RishabhRaj/OneDrive - Rr/Desktop/Dooo TV/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" value="0.1" />
+        <entry key="..\:/Users/rishabhraj/Desktop/Android source/Dooo/app/src/main/res/drawable/fit_screen.xml" value="0.198" />
+        <entry key="..\:/Users/rishabhraj/Desktop/Android source/Dooo/app/src/main/res/drawable/ic_baseline_fullscreen_24.xml" value="0.198" />
+        <entry key="..\:/Users/rishabhraj/Desktop/Android source/Dooo/app/src/main/res/drawable/ic_launcher.xml" value="0.1" />
+        <entry key="..\:/Users/rishabhraj/Desktop/Android source/Dooo/app/src/main/res/drawable/ic_launcher_foreground.xml" value="0.1" />
+        <entry key="..\:/Users/rishabhraj/Desktop/Android source/Dooo/app/src/main/res/drawable/ic_message.xml" value="0.1" />
+        <entry key="..\:/Users/rishabhraj/Desktop/Android source/Dooo/app/src/main/res/layout/account_dialog.xml" value="0.1" />
+        <entry key="..\:/Users/rishabhraj/Desktop/Android source/Dooo/app/src/main/res/layout/account_layout.xml" value="0.1" />
+        <entry key="..\:/Users/rishabhraj/Desktop/Android source/Dooo/app/src/main/res/layout/activity_embed_player.xml" value="0.1" />
+        <entry key="..\:/Users/rishabhraj/Desktop/Android source/Dooo/app/src/main/res/layout/activity_genre_details.xml" value="0.1" />
+        <entry key="..\:/Users/rishabhraj/Desktop/Android source/Dooo/app/src/main/res/layout/activity_home.xml" value="0.1" />
+        <entry key="..\:/Users/rishabhraj/Desktop/Android source/Dooo/app/src/main/res/layout/activity_in__app__update.xml" value="0.1" />
+        <entry key="..\:/Users/rishabhraj/Desktop/Android source/Dooo/app/src/main/res/layout/activity_login_signup.xml" value="0.1" />
+        <entry key="..\:/Users/rishabhraj/Desktop/Android source/Dooo/app/src/main/res/layout/activity_maintenance.xml" value="0.1" />
+        <entry key="..\:/Users/rishabhraj/Desktop/Android source/Dooo/app/src/main/res/layout/activity_player.xml" value="0.1" />
+        <entry key="..\:/Users/rishabhraj/Desktop/Android source/Dooo/app/src/main/res/layout/activity_privecy_policy.xml" value="0.1" />
+        <entry key="..\:/Users/rishabhraj/Desktop/Android source/Dooo/app/src/main/res/layout/activity_splash.xml" value="0.1" />
+        <entry key="..\:/Users/rishabhraj/Desktop/Android source/Dooo/app/src/main/res/layout/activity_subscription_details.xml" value="0.1" />
+        <entry key="..\:/Users/rishabhraj/Desktop/Android source/Dooo/app/src/main/res/layout/activity_subscription_list.xml" value="0.1" />
+        <entry key="..\:/Users/rishabhraj/Desktop/Android source/Dooo/app/src/main/res/layout/activity_web_series_details.xml" value="0.1" />
+        <entry key="..\:/Users/rishabhraj/Desktop/Android source/Dooo/app/src/main/res/layout/activity_web_view.xml" value="0.1" />
+        <entry key="..\:/Users/rishabhraj/Desktop/Android source/Dooo/app/src/main/res/layout/continue_playing_item.xml" value="0.1" />
+        <entry key="..\:/Users/rishabhraj/Desktop/Android source/Dooo/app/src/main/res/layout/cupan_dialog.xml" value="0.22" />
+        <entry key="..\:/Users/rishabhraj/Desktop/Android source/Dooo/app/src/main/res/layout/download_item.xml" value="0.1" />
+        <entry key="..\:/Users/rishabhraj/Desktop/Android source/Dooo/app/src/main/res/layout/episode_item.xml" value="0.67" />
+        <entry key="..\:/Users/rishabhraj/Desktop/Android source/Dooo/app/src/main/res/layout/forgot_password.xml" value="0.12129629629629629" />
+        <entry key="..\:/Users/rishabhraj/Desktop/Android source/Dooo/app/src/main/res/layout/genre_item.xml" value="0.1" />
+        <entry key="..\:/Users/rishabhraj/Desktop/Android source/Dooo/app/src/main/res/layout/home_layout.xml" value="0.1" />
+        <entry key="..\:/Users/rishabhraj/Desktop/Android source/Dooo/app/src/main/res/layout/language_change_dialog.xml" value="0.1" />
+        <entry key="..\:/Users/rishabhraj/Desktop/Android source/Dooo/app/src/main/res/layout/live_tv_channel_item.xml" value="0.1" />
+        <entry key="..\:/Users/rishabhraj/Desktop/Android source/Dooo/app/src/main/res/layout/movie_play_item.xml" value="0.10185185185185185" />
+        <entry key="..\:/Users/rishabhraj/Desktop/Android source/Dooo/app/src/main/res/layout/movies_layout.xml" value="0.1" />
+        <entry key="..\:/Users/rishabhraj/Desktop/Android source/Dooo/app/src/main/res/layout/my_comment_item.xml" value="0.1" />
+        <entry key="..\:/Users/rishabhraj/Desktop/Android source/Dooo/app/src/main/res/layout/play_movie.xml" value="0.10185185185185185" />
+        <entry key="..\:/Users/rishabhraj/Desktop/Android source/Dooo/app/src/main/res/layout/player_controlls.xml" value="0.5" />
+        <entry key="..\:/Users/rishabhraj/Desktop/Android source/Dooo/app/src/main/res/layout/search_layout.xml" value="0.5" />
+        <entry key="..\:/Users/rishabhraj/Desktop/Android source/Dooo/app/src/main/res/layout/shimmer_gird_list.xml" value="0.1" />
+        <entry key="..\:/Users/rishabhraj/Desktop/Android source/Dooo/app/src/main/res/layout/show_all.xml" value="0.1" />
+        <entry key="..\:/Users/rishabhraj/Desktop/Android source/Dooo/app/src/main/res/layout/signup.xml" value="0.1" />
+        <entry key="..\:/Users/rishabhraj/Desktop/Android source/Dooo/app/src/main/res/layout/slider_item_container.xml" value="0.1" />
+        <entry key="..\:/Users/rishabhraj/Desktop/Android source/Dooo/app/src/main/res/layout/small_live_tv_channel_item.xml" value="0.1" />
+        <entry key="..\:/Users/rishabhraj/Desktop/Android source/Dooo/app/src/main/res/layout/subscription_item.xml" value="0.1" />
+        <entry key="..\:/Users/rishabhraj/Desktop/Android source/Dooo/app/src/main/res/layout/traier_player_controlls.xml" value="0.1" />
+        <entry key="..\:/Users/rishabhraj/Desktop/Android source/Dooo/app/src/main/res/layout/update_list_item.xml" value="0.1" />
+        <entry key="..\:/Users/rishabhraj/Desktop/Android source/Dooo/app/src/main/res/menu/menu.xml" value="0.1" />
+        <entry key="..\:/Users/rishabhraj/Desktop/Android source/Dooo/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.1" />
+        <entry key="..\:/Users/rishabhraj/Desktop/Android source/Dooo/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" value="0.1" />
+        <entry key="..\:/Users/rishabhraj/Desktop/Dooo TV/app/src/main/res/layout/activity_home.xml" value="0.1" />
+        <entry key="..\:/Users/rishabhraj/Desktop/Dooo TV/app/src/main/res/layout/activity_subscription_details.xml" value="0.1" />
+        <entry key="..\:/Users/rishabhraj/Desktop/Dooo TV/app/src/main/res/layout/activity_subscription_list.xml" value="0.1675929884566054" />
+        <entry key="..\:/Users/rishabhraj/Desktop/Dooo TV/app/src/main/res/layout/activity_subscription_list1.xml" value="0.1675929884566054" />
+        <entry key="..\:/Users/rishabhraj/Desktop/Dooo TV/app/src/main/res/layout/episode_item.xml" value="0.18" />
+        <entry key="..\:/Users/rishabhraj/Desktop/Dooo TV/app/src/main/res/layout/h.xml" value="0.1675929884566054" />
+        <entry key="..\:/Users/rishabhraj/Desktop/Dooo TV/app/src/main/res/layout/home_layout.xml" value="0.1" />
+        <entry key="..\:/Users/rishabhraj/Desktop/Dooo TV/app/src/main/res/layout/slider_item_container.xml" value="0.1" />
+        <entry key="..\:/Users/rishabhraj/Desktop/Dooo TV/app/src/main/res/layout/subscription_item.xml" value="0.1675929884566054" />
+        <entry key="..\:/Users/rishabhraj/Desktop/Reo7/Dooo/app/src/main/res/drawable-v24/selectable_item_background.xml" value="0.1905" />
+        <entry key="..\:/Users/rishabhraj/Desktop/Reo7/Dooo/app/src/main/res/drawable/movie_details_line_bg.xml" value="0.137" />
+        <entry key="..\:/Users/rishabhraj/Desktop/Reo7/Dooo/app/src/main/res/drawable/ripple_black.xml" value="0.1905" />
+        <entry key="..\:/Users/rishabhraj/Desktop/Reo7/Dooo/app/src/main/res/drawable/season_spinner_bg.xml" value="0.137" />
+        <entry key="..\:/Users/rishabhraj/Desktop/Reo7/Dooo/app/src/main/res/drawable/selectable_item_background.xml" value="0.1905" />
+        <entry key="..\:/Users/rishabhraj/Desktop/Reo7/Dooo/app/src/main/res/drawable/send_otp_btn_ripple.xml" value="0.1" />
+        <entry key="..\:/Users/rishabhraj/Desktop/Reo7/Dooo/app/src/main/res/layout/account_dialog.xml" value="0.1675929884566054" />
+        <entry key="..\:/Users/rishabhraj/Desktop/Reo7/Dooo/app/src/main/res/layout/account_layout.xml" value="0.18229166666666666" />
+        <entry key="..\:/Users/rishabhraj/Desktop/Reo7/Dooo/app/src/main/res/layout/activity_all_genre.xml" value="0.18229166666666666" />
+        <entry key="..\:/Users/rishabhraj/Desktop/Reo7/Dooo/app/src/main/res/layout/activity_downloads.xml" value="0.1828125" />
+        <entry key="..\:/Users/rishabhraj/Desktop/Reo7/Dooo/app/src/main/res/layout/activity_embed_player.xml" value="0.1828125" />
+        <entry key="..\:/Users/rishabhraj/Desktop/Reo7/Dooo/app/src/main/res/layout/activity_favorites.xml" value="0.1675929884566054" />
+        <entry key="..\:/Users/rishabhraj/Desktop/Reo7/Dooo/app/src/main/res/layout/activity_genre_details.xml" value="0.1828125" />
+        <entry key="..\:/Users/rishabhraj/Desktop/Reo7/Dooo/app/src/main/res/layout/activity_home.xml" value="0.18229166666666666" />
+        <entry key="..\:/Users/rishabhraj/Desktop/Reo7/Dooo/app/src/main/res/layout/activity_in__app__update.xml" value="0.1828125" />
+        <entry key="..\:/Users/rishabhraj/Desktop/Reo7/Dooo/app/src/main/res/layout/activity_live_tv.xml" value="0.1828125" />
+        <entry key="..\:/Users/rishabhraj/Desktop/Reo7/Dooo/app/src/main/res/layout/activity_live_tvsearch.xml" value="0.1828125" />
+        <entry key="..\:/Users/rishabhraj/Desktop/Reo7/Dooo/app/src/main/res/layout/activity_login_signup.xml" value="0.1828125" />
+        <entry key="..\:/Users/rishabhraj/Desktop/Reo7/Dooo/app/src/main/res/layout/activity_movie_details.xml" value="0.16" />
+        <entry key="..\:/Users/rishabhraj/Desktop/Reo7/Dooo/app/src/main/res/layout/activity_player.xml" value="0.1828125" />
+        <entry key="..\:/Users/rishabhraj/Desktop/Reo7/Dooo/app/src/main/res/layout/activity_splash.xml" value="0.1675929884566054" />
+        <entry key="..\:/Users/rishabhraj/Desktop/Reo7/Dooo/app/src/main/res/layout/activity_subscription.xml" value="0.1828125" />
+        <entry key="..\:/Users/rishabhraj/Desktop/Reo7/Dooo/app/src/main/res/layout/activity_subscription_details.xml" value="0.1828125" />
+        <entry key="..\:/Users/rishabhraj/Desktop/Reo7/Dooo/app/src/main/res/layout/activity_subscription_list.xml" value="0.1828125" />
+        <entry key="..\:/Users/rishabhraj/Desktop/Reo7/Dooo/app/src/main/res/layout/activity_terms_and_conditions.xml" value="0.1828125" />
+        <entry key="..\:/Users/rishabhraj/Desktop/Reo7/Dooo/app/src/main/res/layout/activity_trailer_player.xml" value="0.1675929884566054" />
+        <entry key="..\:/Users/rishabhraj/Desktop/Reo7/Dooo/app/src/main/res/layout/activity_web_series_details.xml" value="0.1828125" />
+        <entry key="..\:/Users/rishabhraj/Desktop/Reo7/Dooo/app/src/main/res/layout/activity_web_view.xml" value="0.1828125" />
+        <entry key="..\:/Users/rishabhraj/Desktop/Reo7/Dooo/app/src/main/res/layout/continue_playing_item.xml" value="0.1828125" />
+        <entry key="..\:/Users/rishabhraj/Desktop/Reo7/Dooo/app/src/main/res/layout/cupan_dialog.xml" value="0.1828125" />
+        <entry key="..\:/Users/rishabhraj/Desktop/Reo7/Dooo/app/src/main/res/layout/custom_report_dialog.xml" value="0.1828125" />
+        <entry key="..\:/Users/rishabhraj/Desktop/Reo7/Dooo/app/src/main/res/layout/download_dialog.xml" value="0.1828125" />
+        <entry key="..\:/Users/rishabhraj/Desktop/Reo7/Dooo/app/src/main/res/layout/download_item.xml" value="0.1828125" />
+        <entry key="..\:/Users/rishabhraj/Desktop/Reo7/Dooo/app/src/main/res/layout/download_link_item.xml" value="0.1828125" />
+        <entry key="..\:/Users/rishabhraj/Desktop/Reo7/Dooo/app/src/main/res/layout/episode_item.xml" value="0.22" />
+        <entry key="..\:/Users/rishabhraj/Desktop/Reo7/Dooo/app/src/main/res/layout/genre_item.xml" value="0.1828125" />
+        <entry key="..\:/Users/rishabhraj/Desktop/Reo7/Dooo/app/src/main/res/layout/home_layout.xml" value="0.1" />
+        <entry key="..\:/Users/rishabhraj/Desktop/Reo7/Dooo/app/src/main/res/layout/language_change_dialog.xml" value="0.1828125" />
+        <entry key="..\:/Users/rishabhraj/Desktop/Reo7/Dooo/app/src/main/res/layout/live_tv_channel_item.xml" value="0.1828125" />
+        <entry key="..\:/Users/rishabhraj/Desktop/Reo7/Dooo/app/src/main/res/layout/loading_dialog.xml" value="0.1828125" />
+        <entry key="..\:/Users/rishabhraj/Desktop/Reo7/Dooo/app/src/main/res/layout/loading_more.xml" value="0.1828125" />
+        <entry key="..\:/Users/rishabhraj/Desktop/Reo7/Dooo/app/src/main/res/layout/login.xml" value="0.1828125" />
+        <entry key="..\:/Users/rishabhraj/Desktop/Reo7/Dooo/app/src/main/res/layout/movie_item.xml" value="0.18229166666666666" />
+        <entry key="..\:/Users/rishabhraj/Desktop/Reo7/Dooo/app/src/main/res/layout/movie_play_item.xml" value="0.18229166666666666" />
+        <entry key="..\:/Users/rishabhraj/Desktop/Reo7/Dooo/app/src/main/res/layout/movies_layout.xml" value="0.18" />
+        <entry key="..\:/Users/rishabhraj/Desktop/Reo7/Dooo/app/src/main/res/layout/my_comment_item.xml" value="0.1828125" />
+        <entry key="..\:/Users/rishabhraj/Desktop/Reo7/Dooo/app/src/main/res/layout/payment_dialog.xml" value="0.1675929884566054" />
+        <entry key="..\:/Users/rishabhraj/Desktop/Reo7/Dooo/app/src/main/res/layout/play_movie.xml" value="0.25" />
+        <entry key="..\:/Users/rishabhraj/Desktop/Reo7/Dooo/app/src/main/res/layout/player_controlls.xml" value="0.18229166666666666" />
+        <entry key="..\:/Users/rishabhraj/Desktop/Reo7/Dooo/app/src/main/res/layout/search_layout.xml" value="0.1828125" />
+        <entry key="..\:/Users/rishabhraj/Desktop/Reo7/Dooo/app/src/main/res/layout/series_layout.xml" value="0.1" />
+        <entry key="..\:/Users/rishabhraj/Desktop/Reo7/Dooo/app/src/main/res/layout/shimmer_gird_list.xml" value="0.1" />
+        <entry key="..\:/Users/rishabhraj/Desktop/Reo7/Dooo/app/src/main/res/layout/show_all.xml" value="0.18229166666666666" />
+        <entry key="..\:/Users/rishabhraj/Desktop/Reo7/Dooo/app/src/main/res/layout/show_all_genre.xml" value="0.18229166666666666" />
+        <entry key="..\:/Users/rishabhraj/Desktop/Reo7/Dooo/app/src/main/res/layout/show_all_live_tv_channels.xml" value="0.1828125" />
+        <entry key="..\:/Users/rishabhraj/Desktop/Reo7/Dooo/app/src/main/res/layout/signup.xml" value="0.1828125" />
+        <entry key="..\:/Users/rishabhraj/Desktop/Reo7/Dooo/app/src/main/res/layout/slider_item_container.xml" value="0.1828125" />
+        <entry key="..\:/Users/rishabhraj/Desktop/Reo7/Dooo/app/src/main/res/layout/small_live_tv_channel_item.xml" value="0.1828125" />
+        <entry key="..\:/Users/rishabhraj/Desktop/Reo7/Dooo/app/src/main/res/layout/track_selection_dialog.xml" value="0.1828125" />
+        <entry key="..\:/Users/rishabhraj/Desktop/Reo7/Dooo/app/src/main/res/layout/traier_player_controlls.xml" value="0.1828125" />
+        <entry key="..\:/Users/rishabhraj/Desktop/Reo7/Dooo/app/src/main/res/layout/update_list_item.xml" value="0.1828125" />
+        <entry key="..\:/Users/rishabhraj/Desktop/Reo7/Dooo/app/src/main/res/menu/menu.xml" value="0.1828125" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="default_web_client_id" translatable="false">108801460532-egvtrhp3jil9epd2dh7ktn4d37op8dvq.apps.googleusercontent.com</string>
+    <string name="gcm_defaultSenderId" translatable="false">108801460532</string>
+    <string name="google_api_key" translatable="false">AIzaSyCT_V5Ub2HdvUIyft3aNjY728Skow2a9zg</string>
+    <string name="google_app_id" translatable="false">1:108801460532:android:b22c277a8001f10ec8bd61</string>
+    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyCT_V5Ub2HdvUIyft3aNjY728Skow2a9zg</string>
+    <string name="google_storage_bucket" translatable="false">live-cricket-3626b.appspot.com</string>
+    <string name="project_id" translatable="false">live-cricket-3626b</string>
+</resources>

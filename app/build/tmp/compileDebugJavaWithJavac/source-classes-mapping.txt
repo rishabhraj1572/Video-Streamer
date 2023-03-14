@@ -1,0 +1,32 @@
+com/rrgroup/demo/AppConfig.java
+ com.rrgroup.demo.AppConfig
+com/rrgroup/demo/ChannelAdapter.java
+ com.rrgroup.demo.ChannelAdapter
+ com.rrgroup.demo.ChannelAdapter$ChannelViewHolder
+ com.rrgroup.demo.ChannelAdapter$OnItemClickListener
+com/rrgroup/demo/MaintenanceActivity.java
+ com.rrgroup.demo.MaintenanceActivity
+com/rrgroup/demo/BuildConfig.java
+ com.rrgroup.demo.BuildConfig
+com/rrgroup/demo/MainActivity.java
+ com.rrgroup.demo.MainActivity
+ com.rrgroup.demo.MainActivity$1
+ com.rrgroup.demo.MainActivity$1$1
+com/rrgroup/demo/dialog/TrackSelectionDialog.java
+ com.rrgroup.demo.dialog.TrackSelectionDialog
+ com.rrgroup.demo.dialog.TrackSelectionDialog$FragmentAdapter
+ com.rrgroup.demo.dialog.TrackSelectionDialog$TrackSelectionViewFragment
+com/rrgroup/demo/UpdateActivity.java
+ com.rrgroup.demo.UpdateActivity
+ com.rrgroup.demo.UpdateActivity$1
+com/rrgroup/demo/ChannelItem.java
+ com.rrgroup.demo.ChannelItem
+com/rrgroup/demo/OptionsActivity.java
+ com.rrgroup.demo.OptionsActivity
+ com.rrgroup.demo.OptionsActivity$1
+ com.rrgroup.demo.OptionsActivity$2
+ com.rrgroup.demo.OptionsActivity$3
+ com.rrgroup.demo.OptionsActivity$4
+ com.rrgroup.demo.OptionsActivity$5
+com/rrgroup/demo/PlayerActivity.java
+ com.rrgroup.demo.PlayerActivity
