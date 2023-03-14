@@ -32,13 +32,11 @@
 
 <p>&nbsp;</p>
 
-<p>&nbsp; &nbsp; &nbsp; &nbsp;&nbsp;<span style="font-size:12px"><strong>MainActivity&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; OptionsActivity&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; Maintenance&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; UpdateActivity</strong></span></p>
-
 <p><span style="font-size:18px"><strong><img alt="" src="https://github.com/rishabhraj1572/Video-Streamer/raw/main/Screenshots/photo_2023-03-14_22-25-02.jpg" style="height:360px; width:162px" />&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;<img alt="" src="https://github.com/rishabhraj1572/Video-Streamer/raw/main/Screenshots/photo_2023-03-14_22-24-59.jpg" style="height:360px; width:162px" />&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;<img alt="" src="https://github.com/rishabhraj1572/Video-Streamer/raw/main/Screenshots/photo_2023-03-14_22-24-32.jpg" style="height:360px; width:162px" />&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;<img alt="" src="https://github.com/rishabhraj1572/Video-Streamer/raw/main/Screenshots/Screenshot_2023-02-15-12-29-47-22.jpg" style="height:360px; width:162px" /></strong></span></p>
 
 <p>&nbsp;</p>
 
-<p><span style="font-size:12px"><strong>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; PlayerActivity&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; VideoQuality</strong></span></p>
+<p>&nbsp;</p>
 
 <p><span style="font-size:18px"><strong><img alt="" src="https://github.com/rishabhraj1572/Video-Streamer/raw/main/Screenshots/photo_2023-03-14_22-24-57.jpg" style="height:162px; width:360px" />&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;<img alt="" src="https://github.com/rishabhraj1572/Video-Streamer/raw/main/Screenshots/photo_2023-03-14_22-24-37.jpg" style="height:162px; width:360px" /></strong></span></p>
 
