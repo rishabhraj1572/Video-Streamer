@@ -13,7 +13,21 @@
 
 <ul>
 	<li><span style="font-size:16px"><strong>Update your links inside AppConfig.java</strong></span></li>
+	<li><span style="font-size:16px"><strong>JSON Format Here :</strong></span></li>
 </ul>
+
+<pre>
+<code class="language-json">{"channels":[{
+    "name":"name_here",
+    "image":"imageURL_here",
+    "link":"link_here",
+    "type":"m3u8_or_dash_or_externalURL",
+    "licence_url":"keys_here",
+    "origin":"origin_here",
+    "referer":"referer_here",
+    "cookie":"cookie_here",
+    "useragent":"useragent_here",
+    "visible":"true_or_false"}]}</code></pre>
 
 <p>&nbsp;</p>
 
