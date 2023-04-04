@@ -2,7 +2,7 @@ package com.example.demo;
 
 import static com.example.demo.OptionsActivity.CHANNEL_LINK;
 import static com.example.demo.OptionsActivity.COOKIE;
-import static com.example.demo.OptionsActivity.EXTRA_NAME;
+import static com.exaple.demo.OptionsActivity.EXTRA_NAME;
 import static com.example.demo.OptionsActivity.EXTRA_URL;
 import static com.example.demo.OptionsActivity.LICENSE_URL;
 import static com.example.demo.OptionsActivity.ORIGIN;
@@ -13,14 +13,15 @@ import static com.example.demo.OptionsActivity.USER_AGENT;
 import android.annotation.SuppressLint;
 import android.content.Context;
 import android.content.Intent;
+import android.content.pm.ActivityInfo;
 import android.net.ConnectivityManager;
 import android.net.Network;
 import android.net.NetworkCapabilities;
 import android.net.Uri;
 import android.os.Build;
 import android.os.Bundle;
-import android.os.CountDownTimer;
 import android.os.PowerManager;
+import android.util.Base64;
 import android.view.View;
 import android.view.WindowManager;
 import android.widget.ImageView;
@@ -49,8 +50,8 @@ import com.google.android.exoplayer2.upstream.DataSource;
 import com.google.android.exoplayer2.upstream.DefaultDataSourceFactory;
 import com.google.android.exoplayer2.upstream.DefaultHttpDataSource;
 import com.google.android.exoplayer2.upstream.DefaultHttpDataSourceFactory;
-import com.google.android.exoplayer2.util.Util;
 import com.example.demo.dialog.TrackSelectionDialog;
+
 import java.util.Map;
 
 
@@ -63,14 +64,11 @@ public class PlayerActivity extends AppCompatActivity {
     private boolean isShowingTrackSelectionDialog;
     private DefaultTrackSelector trackSelector;
     PowerManager.WakeLock wakeLock;
-    CountDownTimer countDownTimer;
-    String mydeviceID;
     @SuppressLint("MissingInflatedId")
     @Override
     protected void onCreate(@Nullable Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_player);
-
 
         Intent intent =getIntent();
         String channelImage=intent.getStringExtra(EXTRA_URL);
@@ -90,7 +88,7 @@ public class PlayerActivity extends AppCompatActivity {
 
         FullScreencall();
         vpnCheck();
-        //getLoginStatus();
+
         //for no screen off while playing the video
         PowerManager powerManager = (PowerManager) getSystemService(Context.POWER_SERVICE);
         wakeLock = powerManager.newWakeLock(PowerManager.PARTIAL_WAKE_LOCK, "Player:No Sleep");
@@ -127,6 +125,7 @@ public class PlayerActivity extends AppCompatActivity {
     private void playVideo(String type,String userAgent,String MediaURL,String LicenseURL,String origin,String referer,String cookie){
         Toast.makeText(this, ""+getIntent().getStringExtra(EXTRA_NAME), Toast.LENGTH_SHORT).show();
         if(type.equals("dash")){
+            PlayerActivity.this.setRequestedOrientation(ActivityInfo.SCREEN_ORIENTATION_SENSOR_LANDSCAPE);
             playerView = findViewById(R.id.exoplayer);
             //Uri videourl = Uri.parse(str);
 
@@ -153,7 +152,7 @@ public class PlayerActivity extends AppCompatActivity {
             playerView.setPlayer(exoPlayer);
             DefaultRenderersFactory renderersFactory = new DefaultRenderersFactory(this);
             SimpleExoPlayer player = new SimpleExoPlayer.Builder(this, renderersFactory).build();
-            MediaSource mediaSource = buildMediaSource(this, MediaURL, LicenseURL, null,origin,referer,cookie);
+            MediaSource mediaSource = buildMediaSource(this, MediaURL, LicenseURL, null,origin,referer,cookie,userAgent);
 
             exoPlayer.setMediaSource(mediaSource);
             exoPlayer.prepare();
@@ -161,6 +160,7 @@ public class PlayerActivity extends AppCompatActivity {
             playerView.setKeepScreenOn(true);
             //wakeLock.acquire(300*60*1000L /*300 minutes*/);
         }else if(type.equals("m3u8")){
+            PlayerActivity.this.setRequestedOrientation(ActivityInfo.SCREEN_ORIENTATION_SENSOR_LANDSCAPE);
             playerView = findViewById(R.id.exoplayer);
             Uri videourl = Uri.parse(MediaURL);
 
@@ -192,11 +192,16 @@ public class PlayerActivity extends AppCompatActivity {
             exoPlayer.play();
             playerView.setKeepScreenOn(true);
 //            wakeLock.acquire(300*60*1000L /*300 minutes*/);
+        }else if(type.equals("external")){
+            String url = MediaURL;
+            Intent i = new Intent(Intent.ACTION_VIEW);
+            i.setData(Uri.parse(url));
+            startActivity(i);
+            finish();
+        }else{
+            Toast.makeText(this, "Error", Toast.LENGTH_SHORT).show();
         }
-
     }
-
-
 
     private void video_options() {
         if (!isShowingTrackSelectionDialog
@@ -233,8 +238,10 @@ public class PlayerActivity extends AppCompatActivity {
         }
     }
     private void pausePlayer(){
+        if(exoPlayer!= null){
         exoPlayer.setPlayWhenReady(false);
         exoPlayer.getPlaybackState();
+        }
     }
     private void startPlayer(){
         exoPlayer.setPlayWhenReady(true);
@@ -265,11 +272,14 @@ public class PlayerActivity extends AppCompatActivity {
     @Override
     protected void onResume() {
         super.onResume();
+        wakeLock.acquire(300*60*1000L /*300 minutes*/);
     }
     @Override
     protected void onStop() {
         super.onStop();
+        if(exoPlayer!=null){
         playerView.setKeepScreenOn(false);
+        }
         wakeLock.release();
     }
     public void FullScreencall() {
@@ -290,8 +300,7 @@ public class PlayerActivity extends AppCompatActivity {
                 | View.SYSTEM_UI_FLAG_HIDE_NAVIGATION);
     }
 
-    private MediaSource buildMediaSource(Context context, String videoUrl, String licenseServer, String licenseToken,String origin,String referer,String cookie) {
-        String userAgent = Util.getUserAgent(context, "DRM example app");
+    private MediaSource buildMediaSource(Context context, String videoUrl, String licenseServer, String licenseToken,String origin,String referer,String cookie,String userAgent) {
         DataSource.Factory dataSourceFactory = new DefaultDataSourceFactory(context, userAgent);
         return new DashMediaSource.Factory(
                 new DefaultDashChunkSource.Factory(dataSourceFactory), dataSourceFactory)
@@ -300,10 +309,12 @@ public class PlayerActivity extends AppCompatActivity {
     }
 
     private DefaultDrmSessionManager buildDrmSessionManager(String userAgent, String licenseUrl, String drmToken,String origin,String referer,String cookie) {
-
-        //String Keys="498f34f9a1fe4ae3ab19903090675a1b:ce4f9c8b4e31904857089c37858c2c2a";
-
-        String keyString = "{ \"keys\":[ { \"kty\":\"oct\", \"k\":\"zk+ci04xkEhXCJw3hYwsKg\", \"kid\":\"SY80+aH+SuOrGZAwkGdaGw\" } ], \"type\":\"temporary\" }";
+        String key = "11:11";
+        if(licenseUrl.contains(":")){
+            key =licenseUrl;
+        }
+        String keys[]=key.split(":");
+        String keyString = "{ \"keys\":[ { \"kty\":\"oct\", \"k\":\""+convertToHex64(keys[1])+"\", \"kid\":\""+convertToHex64(keys[0])+"\" } ], \"type\":\"temporary\" }";
         LocalMediaDrmCallback drmCallback1 = new LocalMediaDrmCallback(keyString.getBytes());
         HttpMediaDrmCallback drmCallback = new HttpMediaDrmCallback(licenseUrl,
                 new DefaultHttpDataSourceFactory(userAgent, null));
@@ -317,7 +328,7 @@ public class PlayerActivity extends AppCompatActivity {
 
         return new DefaultDrmSessionManager.Builder()
                 .setUuidAndExoMediaDrmProvider(C.CLEARKEY_UUID, FrameworkMediaDrm.DEFAULT_PROVIDER)
-                .build(drmCallback);
+                .build(drmCallback1);
     }
     public boolean isVPNEnabled() {
         Context mContext = PlayerActivity.this;
@@ -337,5 +348,26 @@ public class PlayerActivity extends AppCompatActivity {
         }
     }
 
+    public String convertToHex64(String input){
 
+        String hexString = input;
+
+        // Convert hex string to byte array
+        byte[] bytes = hexStringToByteArray(hexString);
+
+        // Encode byte array as Base64 string
+        String base64String1 = Base64.encodeToString(bytes, Base64.NO_WRAP);
+
+        String base64String = base64String1.substring(0,base64String1.length()-2);
+        return base64String;
+    }
+    public static byte[] hexStringToByteArray(String hexString) {
+        int len = hexString.length();
+        byte[] data = new byte[len / 2];
+        for (int i = 0; i < len; i += 2) {
+            data[i / 2] = (byte) ((Character.digit(hexString.charAt(i), 16) << 4)
+                    + Character.digit(hexString.charAt(i + 1), 16));
+        }
+        return data;
+    }
 }
