@@ -32,8 +32,8 @@
 <p>&nbsp;</p>
 
 <p><span style="font-size:18px"><strong>FEATURES :</strong></span><br />
-✅<span style="font-size:16px">HLS Player</span><br />
-✅<span style="font-size:16px">DASH with ClearKey Support</span><br />
+✅<span style="font-size:16px">Supports HLS And DASH</span><br />
+✅<span style="font-size:16px">Supports DASH With Decryption Keys</span><br />
 ✅<span style="font-size:16px">User Controlled Number of&nbsp;</span><span style="font-size:16px">Video Sources.</span><br />
 ✅<span style="font-size:16px">Pushing App Update From Backend.</span><br />
 ✅<span style="font-size:16px">Maintenance Activity</span><br />
