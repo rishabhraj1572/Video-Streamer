@@ -3,16 +3,23 @@ package com.example.demo;
 import android.app.ProgressDialog;
 import android.content.Context;
 import android.content.Intent;
+import android.content.res.Configuration;
+import android.graphics.Path;
 import android.net.ConnectivityManager;
 import android.net.Network;
 import android.net.NetworkCapabilities;
 import android.os.Build;
 import android.os.Bundle;
+import android.os.Handler;
+import android.util.DisplayMetrics;
+import android.view.Display;
 import android.view.View;
 import android.view.WindowManager;
+import android.widget.Button;
 
 import androidx.annotation.Nullable;
 import androidx.appcompat.app.AppCompatActivity;
+import androidx.recyclerview.widget.GridLayoutManager;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 import androidx.swiperefreshlayout.widget.SwipeRefreshLayout;
@@ -28,7 +35,12 @@ import org.json.JSONArray;
 import org.json.JSONException;
 import org.json.JSONObject;
 
+import java.io.BufferedReader;
 import java.io.IOException;
+import java.io.InputStream;
+import java.io.InputStreamReader;
+import java.net.HttpURLConnection;
+import java.net.URL;
 import java.util.ArrayList;
 
 import okhttp3.Call;
@@ -60,6 +72,7 @@ public class OptionsActivity extends AppCompatActivity implements ChannelAdapter
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_options);
 
+
         FullScreencall();
         CheckForUpdate();
         vpnCheck();
@@ -78,6 +91,7 @@ public class OptionsActivity extends AppCompatActivity implements ChannelAdapter
             public void onRefresh() {
                 mChannelList.clear();
                 urlFetch();
+                mChannelAdapter.notifyDataSetChanged();
                 progressBar.show();
 
             }
@@ -111,8 +125,8 @@ public class OptionsActivity extends AppCompatActivity implements ChannelAdapter
                     String myResponse = response.body().string();
                     jsonURL=myResponse;
                     parseJSON();
-                    swipeRefreshLayout.setRefreshing(false);
-                    progressBar.dismiss();
+//                    swipeRefreshLayout.setRefreshing(false);
+                    //progressBar.dismiss();
                 }
             }
         });
@@ -173,15 +187,41 @@ public class OptionsActivity extends AppCompatActivity implements ChannelAdapter
                                 String referer = item.getString("referer");
                                 String cookie=item.getString("cookie");
                                 String userAgent=item.getString("useragent");
+                                String visibility=item.getString("visible");
 
+                                if (visibility.equals("true")){
+                                    mChannelList.add(new ChannelItem(channelImg,channelName,channelLink,type,LicenseUrl,origin,referer,cookie,userAgent));
+                                }
 
-
-                                mChannelList.add(new ChannelItem(channelImg,channelName,channelLink,type,LicenseUrl,origin,referer,cookie,userAgent));
-                            }
+                                if (!mChannelList.isEmpty()){
+                                    progressBar.dismiss();
+                                    swipeRefreshLayout.setRefreshing(false);
+                                }
+                               }
 
                             mChannelAdapter = new ChannelAdapter(OptionsActivity.this,mChannelList);
                             mRecycleView.setAdapter(mChannelAdapter);
-                            progressBar.dismiss();
+
+                            Display display = OptionsActivity.this.getWindowManager().getDefaultDisplay();
+                            DisplayMetrics outMetrics = new DisplayMetrics();
+                            display.getMetrics(outMetrics);
+                            float density  = getResources().getDisplayMetrics().density;
+                            float dpWidth  = outMetrics.widthPixels / density;
+                            int columns = Math.round(dpWidth/300);
+
+                            if (getResources().getConfiguration().orientation == Configuration.ORIENTATION_PORTRAIT) {
+                                GridLayoutManager mLayoutManager = new GridLayoutManager(OptionsActivity.this, 2);
+                                mRecycleView.setLayoutManager(mLayoutManager);
+                            }else if (getResources().getConfiguration().orientation == Configuration.ORIENTATION_LANDSCAPE) {
+                                GridLayoutManager mLayoutManager = new GridLayoutManager(OptionsActivity.this, columns);
+                                mRecycleView.setLayoutManager(mLayoutManager);
+                            }else{
+                                GridLayoutManager mLayoutManager = new GridLayoutManager(OptionsActivity.this, columns);
+                                mRecycleView.setLayoutManager(mLayoutManager);
+                            }
+
+
+                            //progressBar.dismiss();
                             mChannelAdapter.setOnItemClickListener(OptionsActivity.this);
 
                         } catch (JSONException e) {
@@ -266,3 +306,4 @@ public class OptionsActivity extends AppCompatActivity implements ChannelAdapter
 
 
 }
+
