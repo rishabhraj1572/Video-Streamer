@@ -34,7 +34,6 @@
 <p><span style="font-size:18px"><strong>FEATURES :</strong></span><br />
 ✅<span style="font-size:16px">HLS Player</span><br />
 ✅<span style="font-size:16px">DASH with ClearKey Support</span><br />
-✅<span style="font-size:16px">Unlimited Video Slots As Maintained in json.</span><br />
 ✅<span style="font-size:16px">User Controlled Number of&nbsp;</span><span style="font-size:16px">Video Sources.</span><br />
 ✅<span style="font-size:16px">Pushing App Update From Backend.</span><br />
 ✅<span style="font-size:16px">Maintenance Activity</span><br />
