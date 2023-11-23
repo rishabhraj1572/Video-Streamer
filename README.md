@@ -55,4 +55,4 @@
 <p>&nbsp;</p>
 
 <p><br />
-<strong><span style="font-size:20px">FEEL FREE TO CONTRIBUTE IN THIS PROJECT (WITH OR WITHOUT MONEY)&nbsp;😉😉</span></strong></p>
+<strong><span style="font-size:20px">FEEL FREE TO CONTRIBUTE IN THIS PROJECT😉😉</span></strong></p>
